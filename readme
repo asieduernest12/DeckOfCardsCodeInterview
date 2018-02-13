@@ -1,1 +1,3 @@
 java implementation that creates shuffles and deals a deck of 52 cards
+
+See results of excution with `gradle run`
