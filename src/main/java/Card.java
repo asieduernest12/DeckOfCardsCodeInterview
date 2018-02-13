@@ -1,3 +1,4 @@
+package com.cards;
 
 public class Card {
 
@@ -11,5 +12,14 @@ public class Card {
 
 	public String toString(){
 		return String.format("%s of %s", face, suit); //return formated String
+	}
+
+
+	public String getFace(){
+		return this.face;
+	}
+
+	public String getSuit(){
+		return this.suit;
 	}
 }
