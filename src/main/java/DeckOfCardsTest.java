@@ -1,3 +1,4 @@
+package com.cards;
 
 public class DeckOfCardsTest {
 
