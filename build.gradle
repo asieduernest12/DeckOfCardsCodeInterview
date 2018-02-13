@@ -7,9 +7,10 @@
  * user guide available at http://gradle.org/docs/2.2.1/userguide/tutorial_java_projects.html
  */
 
+ // Apply the java plugin to add support for Java
+ apply plugin: 'java'
+
 /*
-// Apply the java plugin to add support for Java
-apply plugin: 'java'
 
 // In this section you declare where to find the dependencies of your project
 repositories {
