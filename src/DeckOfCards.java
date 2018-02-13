@@ -30,10 +30,10 @@ public class DeckOfCards {
 
 	public void shuffle(){
 
-		currentCard = 0;
-
-		for(int first = 0; first < deck.length; first++){
-			int second = randomNumbers.nextInt(NUMBER_OF_CARDS);
+		currentCard = 0;//restart the counter val every time a shuffle is attempted
+		//emplying fisher yates algo
+		for(int first = deck.length-1; first > 0; first--){
+			int second = randomNumbers.nextInt(first);
 
 			swapCards(deck,first,second);
 		}
